@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/googlePayButton"
+        layout="@layout/buy_with_googlepay_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/buy_button_height"
+        android:layout_marginTop="@dimen/google_pay_button_margin_top"
+        android:visibility="visible" />
+
+</LinearLayout>
